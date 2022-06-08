@@ -13,7 +13,7 @@ function [TT,TR,TI,TS,S,T,AE,Em,Ei,Emi,TT1a,TT1b,TT2a,TT2b,TTundefined,TH] = ana
 
     S=1; %stability without diffusion
     T=1; %stability with diffusion 
-    k=0:0.2:10; %wave length lambda
+    k=0:0.2:100; %wave length lambda
 
     % >>>>>> calculate eigenvalue vector AE for without diffusion
     AE=[];
